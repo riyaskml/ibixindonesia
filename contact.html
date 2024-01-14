@@ -9,7 +9,30 @@
     />
 
     <title>PT IBIX ONLINE TRAVELS</title>
-
+    <meta
+      name="description"
+      content="PT IBIX Travels and Software Solutions Company - Your Trusted Partner for Travel and Technology Solutions in Indonesia. Explore our innovative software solutions and reliable travel services."
+    />
+    <!-- Keywords Meta Tag -->
+    <meta
+      name="keywords"
+      content="PT IBIX, travels, software solutions, technology, Indonesia"
+    />
+    <!-- Open Graph Meta Tags (for social media sharing) -->
+    <meta
+      property="og:title"
+      content="PT IBIX Travels and Software Solutions Company"
+    />
+    <meta
+      property="og:description"
+      content="Your Trusted Partner for Travel and Technology Solutions in Indonesia. Explore our innovative software solutions and reliable travel services."
+    />
+    <meta
+      property="og:image"
+      content="https://www.ibixonline.co/img/ibixonline.png"
+    />
+    <meta property="og:url" content="www.ibixonline.co" />
+    <meta property="og:type" content="website" />
     <!-- Fav Icon -->
     <link rel="icon" href="/img/fav.png" type="image/x-icon" />
 
@@ -46,39 +69,6 @@
   <!-- page wrapper -->
   <body>
     <div class="boxed_wrapper ltr">
-      <!-- preloader -->
-      <!-- <div class="loader-wrap">
-            <div class="preloader">
-                <div class="preloader-close">close</div>
-                <div id="handle-preloader" class="handle-preloader">
-                    <div class="animation-preloader">
-                        <div class="spinner"></div>
-                        <div class="txt-loading">
-                            <span data-text-preloader="t" class="letters-loading">
-                                t
-                            </span>
-                            <span data-text-preloader="r" class="letters-loading">
-                                r
-                            </span>
-                            <span data-text-preloader="a" class="letters-loading">
-                                a
-                            </span>
-                            <span data-text-preloader="v" class="letters-loading">
-                                v
-                            </span>
-                            <span data-text-preloader="i" class="letters-loading">
-                                i
-                            </span>
-                            <span data-text-preloader="c" class="letters-loading">
-                                c
-                            </span>
-                        </div>
-                    </div>   
-                </div>
-            </div>
-        </div> -->
-      <!-- preloader end -->
-
       <!-- main header -->
       <header class="main-header header-style-two">
         <!-- header-lower -->
@@ -102,17 +92,17 @@
                   >
                     <ul class="navigation clearfix">
                       <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html">RUMAH</a>
                       </li>
-                      <li><a href="about.html">About</a></li>
+                      <li><a href="about.html">TENTANG</a></li>
                       <li>
-                        <a href="packages.html">Our Packages</a>
+                        <a href="packages.html">PAKET KAMI</a>
                       </li>
                       <li>
-                        <a href="software.html">Software Services</a>
+                        <a href="software.html">LAYANAN PERANGKAT LUNAK </a>
                       </li>
                       <li class="current">
-                        <a href="contact.html">Contact Us</a>
+                        <a href="contact.html">Hubungi kami</a>
                       </li>
                     </ul>
                   </div>
@@ -185,8 +175,8 @@
         ></div>
         <div class="auto-container">
           <div class="content-box">
-            <span>Contact</span>
-            <h1>Contact Us</h1>
+            <span>Kontak</span>
+            <h1>Hubungi kami</h1>
           </div>
         </div>
       </section>
@@ -196,15 +186,15 @@
       <section class="contact-info-section pt_120 pb_90 centred">
         <div class="auto-container">
           <div class="sec-title mb_50">
-            <span class="sub-title">Contact Details</span>
-            <h2>Contact Information</h2>
+            <span class="sub-title">Detail Kontak</span>
+            <h2>Kontak informasi</h2>
           </div>
           <div class="row clearfix">
             <div class="col-lg-4 col-md-6 col-sm-12 info-column">
               <div class="info-block-one">
                 <div class="inner-box">
                   <div class="icon-box"><i class="icon-24"></i></div>
-                  <h3>Our Location</h3>
+                  <h3>Lokasi Kami</h3>
                   <p>
                     Rukan Crown Place Blok D.15, Jl. Prof. Dr. Soepomo No. 231,
                     Desa/Kelurahan Menteng Dalam, Kec. Tebet, Kota Adm. Jakarta
@@ -217,7 +207,7 @@
               <div class="info-block-one">
                 <div class="inner-box">
                   <div class="icon-box"><i class="icon-29"></i></div>
-                  <h3>Email Address</h3>
+                  <h3>Alamat email</h3>
                   <p>
                     <a href="mailto:ibixonlinetravels@gmail.com"
                       >ibixonlinetravels@gmail.com</a
@@ -230,7 +220,7 @@
               <div class="info-block-one">
                 <div class="inner-box">
                   <div class="icon-box"><i class="icon-28"></i></div>
-                  <h3>Phone Number</h3>
+                  <h3>Nomor telepon</h3>
                   <p>
                     <a href="tel:082112727374">082112727374</a>
                     (24/7)
@@ -265,14 +255,16 @@
       <section class="contact-section pt_120 pb_120">
         <div class="auto-container">
           <div class="sec-title centred mb_50">
-            <span class="sub-title">Connect</span>
-            <h2>Send us Message</h2>
+            <span class="sub-title">Menghubung</span>
+            <h2>Kirimkan Pesan kepada kami</h2>
           </div>
           <div class="form-inner">
             <form
               method="post"
-              action="sendemail.php"
-              id="contact-form"
+              name="myForm"
+              id="my-form"
+              action="https://formspree.io/f/xleqeqna"
+              method="POST"
               class="default-form"
             >
               <div class="row clearfix">
@@ -280,7 +272,7 @@
                   <input
                     type="text"
                     name="username"
-                    placeholder="Your Name"
+                    placeholder="Namamu"
                     required=""
                   />
                 </div>
@@ -288,7 +280,7 @@
                   <input
                     type="email"
                     name="email"
-                    placeholder="Your email"
+                    placeholder="Email mu"
                     required=""
                   />
                 </div>
@@ -297,7 +289,7 @@
                     type="text"
                     name="phone"
                     required=""
-                    placeholder="Phone"
+                    placeholder="Telepon"
                   />
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">
@@ -305,14 +297,11 @@
                     type="text"
                     name="subject"
                     required=""
-                    placeholder="Subject"
+                    placeholder="Subjek"
                   />
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                  <textarea
-                    name="message"
-                    placeholder="Type message"
-                  ></textarea>
+                  <textarea name="message" placeholder="Ketik pesan"></textarea>
                 </div>
                 <div
                   class="col-lg-12 col-md-12 col-sm-12 form-group message-btn centred"
@@ -321,12 +310,14 @@
                     class="theme-btn btn-one"
                     type="submit"
                     name="submit-form"
+                    id="my-form-button"
                   >
-                    Send Message
+                    Mengirim pesan
                   </button>
                 </div>
               </div>
             </form>
+            <p id="my-form-status"></p>
           </div>
         </div>
       </section>
@@ -369,7 +360,7 @@
               <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div class="footer-widget links-widget">
                   <div class="widget-title">
-                    <h3>Top Places</h3>
+                    <h3>Tempat Teratas</h3>
                   </div>
                   <div class="widget-content">
                     <ul class="links-list clearfix">
@@ -386,15 +377,19 @@
               <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div class="footer-widget links-widget">
                   <div class="widget-title">
-                    <h3>Quick Links</h3>
+                    <h3>tautan langsung</h3>
                   </div>
                   <div class="widget-content">
                     <ul class="links-list clearfix">
-                      <li><a href="about.html">About Us</a></li>
-                      <li><a href="packages.html">Packages</a></li>
-                      <li><a href="software.html">Software Services</a></li>
-                      <li><a href="contact.html">Contact us</a></li>
-                      <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                      <li><a href="about.html">Tentang</a></li>
+                      <li><a href="packages.html">PAKET KAMI</a></li>
+                      <li>
+                        <a href="software.html">LAYANAN PERANGKAT LUNAK</a>
+                      </li>
+                      <li><a href="contact.html">HUBUNGI KAMI</a></li>
+                      <li>
+                        <a href="privacy-policy.html">Kebijakan pribadi</a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -407,8 +402,8 @@
             <div class="bottom-inner">
               <div class="copyright">
                 <p>
-                  Copyright © 2024 <a href="index.html">IBIXonline</a>, Inc. All
-                  Rights Reserved
+                  hak cipta © 2024 <a href="index.html">IBIXonline</a>, Inc.
+                  Semua Hak Dilindungi Undang-undang
                 </p>
               </div>
               <ul class="social-links">
@@ -434,7 +429,7 @@
             <div class="scroll-bar">
               <div class="bar-inner"></div>
             </div>
-            <div class="scroll-bar-text">Go To Top</div>
+            <div class="scroll-bar-text">Ke Atas</div>
           </div>
         </div>
       </div>
@@ -481,6 +476,43 @@
       })();
     </script>
     <!-- /GetButton.io widget -->
+    <script>
+      var form = document.getElementById("my-form");
+
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            Accept: "application/json",
+          },
+        })
+          .then((response) => {
+            if (response.ok) {
+              status.innerHTML = "Thanks for your submission!";
+              form.reset();
+            } else {
+              response.json().then((data) => {
+                if (Object.hasOwn(data, "errors")) {
+                  status.innerHTML = data["errors"]
+                    .map((error) => error["message"])
+                    .join(", ");
+                } else {
+                  status.innerHTML =
+                    "Oops! There was a problem submitting your form";
+                }
+              });
+            }
+          })
+          .catch((error) => {
+            status.innerHTML = "Oops! There was a problem submitting your form";
+          });
+      }
+      form.addEventListener("submit", handleSubmit);
+    </script>
   </body>
   <!-- End of .page_wrapper -->
 </html>

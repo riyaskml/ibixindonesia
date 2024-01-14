@@ -39,8 +39,8 @@
 .page-title .content-box h1 {
   position: relative;
   display: block;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 52px;
+  line-height: 55px;
   color: #fff;
 }
 
@@ -64,8 +64,8 @@
   }
 
   .page-title .content-box h1 {
-    font-size: 36px;
-    line-height: 50px;
+    font-size: 32px;
+    line-height: 48px;
   }
 }
 
